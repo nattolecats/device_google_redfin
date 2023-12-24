@@ -14,7 +14,7 @@ PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
 
 # PowerShare
-include hardware/google/pixel/powershare/device.mk
+#include hardware/google/pixel/powershare/device.mk
 
 # wireless_charger HAL service
 include device/google/redfin/wireless_charger/wireless_charger.mk

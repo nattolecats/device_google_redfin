@@ -2,10 +2,6 @@
 
 # product partition
 
-# AiAi
-product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
-product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
-
 # Audio
 product/etc/ambient/matcher_tah.leveldb
 product/etc/firmware/music_detector.descriptor
@@ -24,10 +20,6 @@ product/etc/felica/mfs.cfg
 product/etc/permissions/com.google.android.hardwareinfo.xml
 product/framework/libhwinfo.jar
 product/priv-app/HardwareInfo/HardwareInfo.apk;PRESIGNED
-
-# Hotword
-product/priv-app/HotwordEnrollmentOKGoogleRT5514P/HotwordEnrollmentOKGoogleRT5514P.apk;PRESIGNED
-product/priv-app/HotwordEnrollmentXGoogleRT5514P/HotwordEnrollmentXGoogleRT5514P.apk;PRESIGNED
 
 # Permissions
 product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-lineage.xml
@@ -97,16 +89,8 @@ product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
 
 # system_ext partition
 
-# Camera extensions
-system_ext/etc/permissions/com.google.android.camera.extensions.xml
-system_ext/framework/com.google.android.camera.extensions.jar
-
 # HBM
 system_ext/priv-app/HbmSVManager/HbmSVManager.apk
-
-# Hotword
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # NFC
 system_ext/priv-app/PixelNfc/PixelNfc.apk
